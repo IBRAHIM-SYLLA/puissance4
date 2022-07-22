@@ -6,9 +6,8 @@
     <section class="part-two">
         <article class="social">
             <ul>
-                <a href="https://github.com/hugo-chabert/puissance4"><img src="https://img.icons8.com/ios-filled/50/000000/github.png"/></a>
+                <a href="https://github.com/ibrahim-sylla/puissance4"><img src="https://img.icons8.com/ios-filled/50/000000/github.png"/></a>
                 <a href="../"><img src="https://img.icons8.com/ios-filled/50/000000/user-male-circle.png"/></a>
-                <a href="https://www.linkedin.com/in/hugo-chabert-72873b230/"><img src="https://img.icons8.com/ios-filled/50/000000/linkedin-circled--v1.png"/></a>
             </ul>
         </article>
     </section>
