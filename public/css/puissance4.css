@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+#board {
+    height: 33.75rem;
+    width: 39.375rem;
+    background-color: blue;
+    border: 10px solid navy;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+main article{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+main article h3:nth-child(1){
+    color: rgb(165, 11, 11);
+}
+main article h3:nth-child(2){
+    color: rgb(178, 178, 9);
+}
+
+.tile {
+    height: 70px;
+    width: 70px;
+    margin: 5px;
+
+    /* Circle */
+    background-color: white;
+    border-radius: 50%;
+    border: 5px solid navy;
+}
+
+.red-piece {
+    background-color: red;
+}
+
+.yellow-piece {
+    background-color: yellow;
+}
+
+.AccueilLi{
+    font-size: clamp(1.2rem, 3vw, 2rem);
+    transition: ease-in-out 0.3s;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 99%;
+    color: black;
+    height: 60px;
+}
+
+.AccueilLi:hover{
+    background-color: rgb(234, 232, 232);
+    color: rgb(116, 116, 236);
+}
+
+.AccueilA{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    transition: ease-in-out 0.5s;
+    color: black;
+}
+
+.container {
+    width: 100%;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
